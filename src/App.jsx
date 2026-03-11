@@ -1,20 +1,34 @@
 import React, { useState, useRef } from 'react';
+import img0 from './images/img-0.js';
+import img1 from './images/img-1.js';
+import img2 from './images/img-2.js';
+import img3 from './images/img-3.js';
+import img4 from './images/img-4.js';
+import img5 from './images/img-5.js';
+import img6 from './images/img-6.js';
+import img7 from './images/img-7.js';
+import img8 from './images/img-8.js';
+import img9 from './images/img-9.js';
+import img10 from './images/img-10.js';
+import img11 from './images/img-11.js';
+import img12 from './images/img-12.js';
+import img13 from './images/img-13.js';
 
-const COVER_IMAGE = '/images/img-0.jpg';
+const COVER_IMAGE = img0;
 const RECIPE_IMAGES = {
-  1: '/images/img-1.jpg',
-  2: '/images/img-2.jpg',
-  3: '/images/img-3.jpg',
-  4: '/images/img-4.jpg',
-  5: '/images/img-5.jpg',
-  6: '/images/img-6.jpg',
-  7: '/images/img-7.jpg',
-  8: '/images/img-8.jpg',
-  9: '/images/img-9.jpg',
-  10: '/images/img-10.jpg',
-  11: '/images/img-11.jpg',
-  12: '/images/img-12.jpg',
-  13: '/images/img-13.jpg',
+  1: img1,
+  2: img2,
+  3: img3,
+  4: img4,
+  5: img5,
+  6: img6,
+  7: img7,
+  8: img8,
+  9: img9,
+  10: img10,
+  11: img11,
+  12: img12,
+  13: img13,
 };
 
 const mookData = {
